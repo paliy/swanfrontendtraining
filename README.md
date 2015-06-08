@@ -27,6 +27,8 @@ Sass
 SMACSS architecture
 CSS grids
 Responsive design fundamentals
+Recommended video course:
+https://www.youtube.com/playlist?list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI
 
 
 2) JavaScript - 1 week
@@ -36,6 +38,8 @@ What you will learn:
 specifics of JavaScript language
 syntax of Javascript
 object-oriented JavaScript basics
+Recommended online course:
+http://www.codecademy.com/en/tracks/javascript
 
 3) JQery - 3 days
 Goal: get familiar with JQuery - most widely used Javascript library which simplifies life in Javascript world
@@ -43,6 +47,7 @@ Proposal: rewrite application from part 2 using Jquery
 What you will learn:
 What is JQuery and how to use it
 Get familiar with JQuery API docummentation. 
+Just get used to use documentation: https://jquery.com/
 
 4) AngularJS - 1-2 weeks
 Goal: Develop single page application using AngularJS framework.
@@ -57,4 +62,5 @@ best practices in AngularJS development
 
 Recommended course:
 http://campus.codeschool.com/courses/shaping-up-with-angular-js/
+
 
