@@ -15,6 +15,7 @@ Every Friday we will do the summary review of past week
 # Front End Training Agenda
 Each member will have separate branch in one repository(https://github.com/r0st1kuzh/swanfrontendtraining) where he will implement all his practical works. 
 Each part of training should be included to the new folder named 1,2,3,4 accordingly.
+
 Recommended literature you can find on following link: https://drive.google.com/folderview?id=0B376ASG7x2DXfmFKSktxT043cWNFcFlJSVc3N3hoOUZxSV9HV0Fmb0VIeTViWkNwSWN6czA&usp=sharing
 
 1) CSS - 1 week
@@ -27,6 +28,7 @@ What you will learn:
 - SMACSS architecture
 - CSS grids
 - Responsive design fundamentals
+
 Recommended video course:
 https://www.youtube.com/playlist?list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI
 
@@ -38,6 +40,7 @@ What you will learn:
 - specifics of JavaScript language
 - syntax of Javascript
 - object-oriented JavaScript basics
+
 Recommended online course:
 http://www.codecademy.com/en/tracks/javascript
 
