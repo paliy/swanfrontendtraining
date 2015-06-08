@@ -21,12 +21,12 @@ Recommended literature you can find on following link: https://drive.google.com/
 Goal: implement the new SWAN landing page design. 
 We will take the upcoming design of the SWAN new website and will start to implement it.
 What you will learn:
-Basics of CSS
-CSS3
-Sass
-SMACSS architecture
-CSS grids
-Responsive design fundamentals
+- Basics of CSS
+- CSS3
+- Sass
+- SMACSS architecture
+- CSS grids
+- Responsive design fundamentals
 Recommended video course:
 https://www.youtube.com/playlist?list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI
 
@@ -35,9 +35,9 @@ https://www.youtube.com/playlist?list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI
 Goal:  implementation of own idea using VanillaJS 
 Each member of the team proposes his variant of simple enough application which he plans to implement in the scope of the week. We will be using VanillaJS (clean Javascript)
 What you will learn:
-specifics of JavaScript language
-syntax of Javascript
-object-oriented JavaScript basics
+- specifics of JavaScript language
+- syntax of Javascript
+- object-oriented JavaScript basics
 Recommended online course:
 http://www.codecademy.com/en/tracks/javascript
 
@@ -45,20 +45,20 @@ http://www.codecademy.com/en/tracks/javascript
 Goal: get familiar with JQuery - most widely used Javascript library which simplifies life in Javascript world
 Proposal: rewrite application from part 2 using Jquery 
 What you will learn:
-What is JQuery and how to use it
-Get familiar with JQuery API docummentation. 
+- What is JQuery and how to use it
+- Get familiar with JQuery API docummentation. 
 Just get used to use documentation: https://jquery.com/
 
 4) AngularJS - 1-2 weeks
 Goal: Develop single page application using AngularJS framework.
 What you will learn:
-Angular JS approach. Declarative, not imperative
-what application structure to choose
-how to do single page routing in Angular applications 
-Angular Controllers and two-way data binding
-how to get and proceed information from API (Services)
-how to write Directives - custom reusable web components.
-best practices in AngularJS development
+- Angular JS approach. Declarative, not imperative
+- what application structure to choose
+- how to do single page routing in Angular applications 
+- Angular Controllers and two-way data binding
+- how to get and proceed information from API (Services)
+- how to write Directives - custom reusable web components.
+- best practices in AngularJS development
 
 Recommended course:
 http://campus.codeschool.com/courses/shaping-up-with-angular-js/
