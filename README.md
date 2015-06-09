@@ -5,10 +5,10 @@ Every day at 12.00 UA time - we will have a meeting where we can discuss plan fo
 
 Every day till 19.00 UA time - send update about what was achieved this day.
 Example:
-implemented responsive menu - #(commit link)
-read 30 pages of book #(name of book)
-passed 40% of online course - #(name of course)
-...any other comments may work too. This is just examples
+- implemented responsive menu - #(commit link)
+- read 30 pages of book #(name of book)
+- passed 40% of online course - #(name of course)
+- ...any other comments may work too. This is just examples
 
 Every Friday we will do the summary review of past week
 
