@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+}
+
+
+.secondSection{
+	background-image: url("../images/whiteBG.png");
+}
+
+
+.iphoneImage{
+	background-image: url("../images/iphone6.png");
+}
+
+
+.navbar-inverse {
+  background-color: transparent;
+}
+
+
+.imageClass {
+	background-image: url("../images/bg1.jpg");
+	height: 100% auto;
+	width: 100% auto;
+	background-repeat: no-repeat;
+}
+
+
+.navBarImage{
+	background-image: url("../images/overlay.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 100% auto;
+}
+
+
+.logoImage{
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%auto;
+	width: 100%auto;
+}
+
+
+.rigtButtonNavBar{
+	margin-top: 54px;
+}
+
+
+#h1Tag{
+	color: white;
+	text-align: center;
+	line-height: 2em;
+}
+
+
+.heightToTop{
+	margin-top: 13vh;
+}
+
+
+.toCenter{
+	vertical-align: middle;
+}
+
+.getStartedButton{
+	color: white;
+	background-color: #0066FF;
+	margin-left: 4vh;
+	margin-top: 11vh;
+	border-color: transparent;
+	height: 6vh;
+	width: 33vh;
+}
+
+
+.someImage{
+	margin-top: 6vh;
+	margin-left: 10vh;
+	text-align: center;
+}
+
+
+.margin{
+	margin-left: 6vh;
+}
+
+
+#pTag{
+	margin-top: 0px;
+}
+
+
+.moveToCenter{
+	text-align: center;
+	margin-top: 10vh;
+	margin-left: 20vh;
+}
+
+.moveToCenter img{
+	display: inline-block;
+}
+
+
+header{
+	background-image: url("../images/bg1.jpg");
+	height:100vh;
+}
