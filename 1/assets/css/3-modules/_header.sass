@@ -2,29 +2,51 @@ header
   height: 100%
   background: url("../img/bg1.jpg") no-repeat center
   background-size: cover
-  text-align: center
 
-  .logo
-    padding: 2%
-    float: left
+  .header
 
+    text-align: center
+    @include span-columns(8)
+    @include shift(2)
 
-
-  nav
-    padding: 2%
-    a
-      margin-left: 20px
+    .logo
+      float: left
+      padding: 2% 2% 2% 0
 
 
 
+    nav
+      float: right
+      padding-top: 7%
+      a
+        margin-left: 20px
+        font-weight: bold
 
 
-  .hero
-    padding: 2%
-    width: 35%
-    margin-left: 50%
-    transform: translateX(-50%)
 
-  ul.hero-icons
-    li
-      display: inline-block
+
+
+    .hero
+      padding-top: 17%
+      margin-left: 50%
+      transform: translateX(-50%)
+      font-weight: bold
+
+    ul.hero-icons
+      transform: translateX(-2%)
+      li
+        display: inline-block
+        padding: 5%
+
+    button
+      background-color: #2980f8
+      border-radius: 3px
+      color:  #fff
+      font-size: 17px
+      font-weight: bold
+      padding: 10px 90px
+    button:hover
+      background-color: #0688fa
+
+    .smart
+      padding-top: 12%
