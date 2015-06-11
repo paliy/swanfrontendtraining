@@ -1,0 +1,98 @@
+@import "lib/bourbon/bourbon"
+@import "lib/neat/neat"
+@import "base/base"
+
+
+body
+	margin: 0
+
+
+.setBackground
+	background-image: url(../images/bg1.jpg)
+	background-size: 100%
+	background-repeat: no-repeat
+	height: 100%
+	@include clearfix
+
+
+nav
+	background-image: url(../images/overlay.png)
+	position: scroll
+	width: 100%
+	z-index: 99
+	-webkit-backface-visibility: hidden
+	height: 95px
+
+
+.toCenter
+	float: right
+	outline : 0
+	width: 80%
+	display: inline
+	padding-left: 50px
+	border-right-width: 0px
+	margin-right: 120px
+
+
+.logo
+	margin-top: 12px
+	box-sizing: initial
+	float: left !important
+
+.navBar
+	float: right
+	color: #2980f7
+	margin: 7px
+	padding: 3px
+	font-size: 17px
+	padding-bottom: 3px
+	margin-top: 55px
+	text-transform: uppercase
+	font-weight: 600
+	margin-right: 4px
+	margin-left: 4px
+
+.navBar
+	&:nth-child(2)
+		margin-top: 50px
+ 
+.color
+	color: #f25468
+
+.toTop
+	@include outer-container
+	@include span-columns(6)
+	@include shift(3)
+	margin-top: 40px
+	max-width: 64em
+	text-align: center
+	margin-bottom: 3em
+	text-align: center
+	margin-left: 25%
+
+.heroText
+	font-weight: bolder
+	color: white
+	font-size: 60px
+
+.heroIcon
+	@include span-columns(3)
+	@include omega(4n)
+	margin-right: 0px
+	margin-top: 5%
+
+.heroIcon
+	img
+		width: 48px
+		height: 51px
+
+.getStartedButton
+	width: 200px
+	height: 45px
+	margin-top: 65px
+	margin-right: 30px
+
+.smart
+	margin-top: 100px
+	margin-right: 10px
+
