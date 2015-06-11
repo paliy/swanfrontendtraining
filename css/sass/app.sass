@@ -1,0 +1,244 @@
+@import "lib/bourbon/bourbon"
+@import "lib/neat/neat"
+@import "base/base"
+
+
+body
+	margin: 0
+	// height: 100%
+
+// .top
+// 	@include outer-container
+// 	@include span-columns(6)
+// 	@include shift(3)
+
+// ==========top bar======================
+.zero
+	background-image: url(../images/bg1.jpg)
+	background-size: cover
+	background-repeat: no-repeat
+	height: 100%
+	@include clearfix
+
+nav
+	background-image: url(../images/overlay.png)
+	position: fixed
+	width: 100%
+	z-index: 99
+	-webkit-backface-visibility: hidden
+	height: 95px
+
+.centered-navigation-menu
+	float: right
+	outline : 0
+	width: 80%
+	// margin-right: 140px
+	display: inline
+	padding-left: 65px
+	border-right-width: 0px
+	margin-right: 160px
+
+
+.logo
+	img
+		width: 80%		
+
+.logo
+	margin-top: 12px
+	float: left !important
+
+.nav-link
+	float: right
+	color: #2980f7
+	margin: 7px
+	padding: 3px
+	font-size: 15px
+	padding-bottom: 3px
+	margin-top: 47px
+	text-transform: uppercase
+	font-weight: 600
+	margin-right: 4px
+	margin-left: 4px
+
+.nav-link
+	&:nth-child(2)
+		margin-top: 39px
+ 
+.color
+	color: #f25468
+
+.color
+	&:hover
+		color: #d25468
+
+a img
+	vertical-align: inherit
+	margin-left: 15px
+
+
+// ========= top info section=====================
+
+section
+	.top-info
+		@include outer-container
+		@include span-columns(6)
+		@include shift(3)
+		margin-top: 140px
+		max-width: 64em
+		// margin-left: auto
+		// margin-right: auto
+		text-align: center
+		margin-bottom: 3em
+		text-align: center
+		margin-left: 25%
+
+.top-word
+	font-weight: bolder
+	color: white
+	// font-size: 4em
+	font-size: 60px
+
+.icon-link
+	@include span-columns(3)
+	@include omega(4n)
+	margin-right: 0px
+	margin-top: 5%
+
+.icon-link
+	img
+		width: 48px
+		height: 51px
+
+button
+	width: 292px
+	height: 50px
+	margin-top: 65px
+
+.smart
+	margin-top: 125px
+
+
+// ============= iphone-slide ===============
+
+.iphone-slide
+	@include outer-container
+	margin-top: 5%
+	margin-bottom: 7%
+
+.iphone-wrapper
+	@include span-columns(6)
+	img
+		float: right
+		margin-right: 19%
+
+	
+
+.iphone-info
+	@include span-columns(6)
+
+.head
+	color: #7b7b7b
+	font-weight: inherit
+	font-size: 1.3em
+	margin-top: 40px
+	margin-bottom: 10px
+
+.app-name
+	color: #333333
+	font-size: 3em
+	font-weight: 800
+	margin-bottom: 25px
+
+.big-head
+	color: #3f3f3f
+	font-weight: 100
+
+.together
+	margin-top: 35px
+
+.quotes
+	display: inline-block
+	width: 45px
+	img
+		margin-bottom: 29px
+		width: 65%
+
+.quotes-text
+	display: inline-block
+	width: 90%
+	color: #7b7b7b
+	font-weight: normal
+
+.name
+	margin-top: 15px
+	margin-left: 48px
+	color: #666666
+	font-weight: 700
+	span
+		color: #7b7b7b
+		font-weight: normal
+.more
+	color: #5293f9
+	font-weight: 700
+	margin-top: 20px
+	font-size: 13px
+
+// ==============Get started section==================
+
+.footer
+	background-image: url(../images/bg3.jpg)
+	background-size: cover
+	background-repeat: no-repeat
+	height: 100%
+	@include clearfix
+
+.wrapp
+	@include outer-container
+	@include span-columns(8)
+	// @include shift(3)
+	margin-left: 17%
+	margin-top: 9%
+	button
+		margin-left: 33%
+
+.swan
+	margin-bottom: 8%
+	a
+		margin-left: 43%
+
+.question
+	color: #ffffff
+	text-align: center
+	font-size: 21px
+
+.centered-navigation-menu-footer
+	display: inline-block
+	width: 100%
+	.nav-link
+		&:nth-child(2)
+			margin-top: 46px
+
+.contacts
+	color: #ffffff
+	text-align: center
+	line-height: 10px
+	margin-top: 10%
+	font-size: 12px
+	margin-bottom: 8%
+
+.nav-link-logo2
+	color: #ffffff
+	font-size: 13px
+	display: inline-block
+	width: 50%
+	font-weight: normal
+
+	margin: 7px
+	padding: 3px
+	// font-size: 15px
+	padding-bottom: 3px
+	margin-top: 47px
+	text-transform: uppercase
+	font-weight: 600
+	margin-right: 4px
+	margin-left: 4px
