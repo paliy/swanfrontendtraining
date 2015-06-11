@@ -1,0 +1,44 @@
+footer
+  height: 100%
+  text-align: center
+  background: url(../img/bg3.jpg) no-repeat center
+  color: $accent-color
+
+  .footer
+    +span-columns(8)
+    +shift(2)
+
+    .logo
+      img
+        margin-top: 8.5em
+
+    .footer-phrase
+      font-size: 2em
+      margin-top: 3em
+
+    button
+      @extend .button-primary
+      margin-top: 2em
+
+    .contacts
+      margin: 2.5em 0 2.5em 0
+      p
+        margin: 0
+        font-size: 0.9em
+
+    hr
+      opacity: 0.5
+
+    .copyright
+      float: left
+
+    nav
+      float: right
+
+      a
+        margin-left: 20px
+        font-weight: bold
+      a:first-child
+        color: $tint-red
+        &:hover
+          color: tint(red, 50%)

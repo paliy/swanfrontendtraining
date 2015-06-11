@@ -1,0 +1,65 @@
+.works
+  background: #fff
+  height: 100%
+  display: inline-block
+  padding-top: 7em
+  &--slides
+    +span-columns(5)
+    +shift(2)
+    display: inline-block
+
+    .slides--controls
+      float: left
+      +clearfix
+      margin-top: 3em
+
+      span
+        display: block
+        +size(14px)
+        background-color: $link-color
+        border-radius: 50%
+        margin-top: 0.5em
+        cursor: pointer
+
+        &:after
+          content: ''
+          display: block
+          +size(10px)
+          background: #fff
+          border-radius: 50%
+          margin: 2px 0 0 2px
+
+      span:nth-child(3)
+        background-color: $tint-red
+        &:after
+          background: $tint-red
+
+
+    .slides--content
+      margin-left: 7em
+
+  &--about
+    +span-columns(5)
+    +shift(-1)
+
+    p:nth-child(1)
+      font-size: 1.5em
+    p:nth-child(2)
+      font-size: 3em
+      font-weight: bold
+    img
+      +size(30px)
+      float: left
+      margin: 0 2em 5em 0
+
+    strong
+      margin-left: 4.1em
+    .author
+      font-weight: normal
+
+    p:last-child
+      margin-top: 3em
+      font-weight: bold
+
+
+

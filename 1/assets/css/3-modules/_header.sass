@@ -13,21 +13,19 @@ header
       float: left
       padding: 2% 2% 2% 0
 
-
-
     nav
       float: right
       padding-top: 7%
       a
         margin-left: 20px
         font-weight: bold
-
-
-
-
+      a:first-child
+        color: $tint-red
+        &:hover
+          color: tint(red, 50%)
 
     .hero
-      padding-top: 17%
+      margin-top: 17%
       margin-left: 50%
       transform: translateX(-50%)
       font-weight: bold
@@ -39,14 +37,7 @@ header
         padding: 5%
 
     button
-      background-color: #2980f8
-      border-radius: 3px
-      color:  #fff
-      font-size: 17px
-      font-weight: bold
-      padding: 10px 90px
-    button:hover
-      background-color: #0688fa
+      @extend .button-primary
 
     .smart
       padding-top: 12%
