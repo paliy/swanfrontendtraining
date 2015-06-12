@@ -418,6 +418,8 @@ button {
 .swan {
   text-align: center;
   margin-bottom: 8%; }
+  .swan a img {
+    margin-left: 0; }
 
 .question {
   color: #ffffff;
