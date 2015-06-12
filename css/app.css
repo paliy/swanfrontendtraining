@@ -383,7 +383,8 @@ button {
   color: #5293f9;
   font-weight: 700;
   margin-top: 20px;
-  font-size: 13px; }
+  font-size: 13px;
+  cursor: pointer; }
 
 .footer {
   background-image: url(../images/bg3.jpg);
@@ -411,13 +412,12 @@ button {
     display: table; }
   .wrapp:last-child {
     margin-right: 0; }
-  .wrapp button {
-    margin-left: 33%; }
+  .wrapp .button {
+    text-align: center; }
 
 .swan {
+  text-align: center;
   margin-bottom: 8%; }
-  .swan a {
-    margin-left: 43%; }
 
 .question {
   color: #ffffff;
@@ -452,5 +452,86 @@ button {
   font-weight: 600;
   margin-right: 4px;
   margin-left: 4px; }
+
+@media screen and (max-width: 980px) {
+  .top-word {
+    font-size: 40px; }
+
+  button {
+    margin-top: 150px;
+    width: 250px; }
+
+  .app-name {
+    font-size: 2.5em; }
+
+  .icon-link a img {
+    width: 40px;
+    height: 40px; }
+
+  .quotes-text {
+    width: 80%;
+    font-size: 14px; }
+
+  .quotes img {
+    margin-bottom: 40px;
+    width: 55%; }
+
+  .big-head {
+    font-size: 14px; }
+
+  .button {
+    margin-bottom: 60px;
+    text-align: center; }
+    .button button {
+      margin-top: 75px; }
+
+  .nav-link-logo2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px; }
+
+  .centered-navigation-menu-footer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px; }
+
+  .iphone-wrapper img {
+    height: 470px; } }
+@media screen and (min-width: 594px) and (max-width: 820px) {
+  .centered-navigation-menu {
+    margin-right: 40px;
+    width: 100%; }
+    .centered-navigation-menu li {
+      font-size: 12px; }
+
+  .logo {
+    margin-top: 14px; }
+    .logo img {
+      width: 70%; }
+
+  .nav-link:nth-child(2) {
+    margin-top: 36px; }
+
+  .top-word {
+    font-size: 30px;
+    margin-bottom: 55px; }
+
+  .top-button {
+    margin-top: 100px; }
+
+  .head {
+    font-size: 1.1em;
+    margin-top: 5px; }
+
+  .app-name {
+    font-size: 2em; }
+
+  .iphone-wrapper img {
+    margin-right: 25px; }
+
+  .centered-navigation-menu-footer li {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=app.css.map */
